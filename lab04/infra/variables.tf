@@ -5,6 +5,7 @@ variable "environment" {
     error_message = "Environment name is not valid."
   }
   default = "dev"
+  #no tutaj potrzebujemy wartosci Resource Group Name ktora zostala utworzona przez tamten skrypt
 }
 
 variable "location" {
